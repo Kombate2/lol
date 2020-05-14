@@ -1,0 +1,236 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_nav{
+    background-attachment: fixed;
+    display:flex;
+   justify-content: flex-end;
+   align-items: center;
+   overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: gray;
+}
+
+.logo{
+    margin-right: auto;
+    padding: 50px;
+    font-size: 12px;
+    color: white;
+    font-size: 30px;
+}
+
+.uno{
+    background-image: url(img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height:1000px;
+    text-align: center;
+}
+
+.dos{
+    padding: 300px;
+}
+
+h1{
+    color: black;
+    font-size:70px ;
+}
+
+.pop{
+    color: white;
+    padding: 10px;
+    font-size: 42px;
+}
+
+.btn_1{
+    text-decoration: none;
+    border: 1px solid rgb(33, 57, 88) ;
+    padding: 10px 25px;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+b{
+    color: white;
+}
+
+.btn_1:hover{
+    border-color: gray;
+    background-color: rgb(33, 57, 88);
+}
+
+
+footer{
+    border: 1px solid transparent;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.lol{
+   display: flex;
+}
+
+.tres{
+    background-image: url(img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:600px ;
+    height: 700px;
+    padding: 20px;
+  text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+.quatro{
+    background-image: url(img/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+  text-align: center;
+}
+
+.cinco{
+    background-image: url(img/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+  text-align: center;
+}
+
+.btn_2{
+    border: 1px solid grey ;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.btn_2:hover{
+    background: rgb(33, 57, 88);
+}
+
+.lil{
+    display: flex;
+    border: 1px solid blue;
+}
+
+.seis{
+    float: right;
+    width: 50%;
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+}
+
+img{
+    width: 50%;
+    border: 1px green;
+    height: auto;
+}
+
+.love{
+    font-size: 15px;
+}
+
+.siete{
+    border: 1px solid transparent;
+    padding-left:700px ;
+}
+
+p{
+    font-size: 20px;
+}
+.btn_3{
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    color: white;
+    background-color: rgb(30, 53, 83);
+}
+
+#fname{
+    font-size: 20px;
+    border: 1px solid gray;
+   padding: 5px 50px;
+}
+
+#fname:hover{
+    border: 2px solid gray ;
+}
+
+#Email{
+    font-size: 20px;
+    border: 1px solid gray;
+   padding: 5px 50px;
+}
+
+#Email:hover{
+    border: 2px solid gray ;
+}
+
+#btreff{
+    font-size: 20px;
+    border: 1px solid gray;
+   padding: 5px 50px;
+}
+#btreff:hover{
+    border: 2px solid gray ;
+}
+
+#nachten{
+    font-size: 20px;
+    border: 1px solid gray;
+   padding: 5px 50px;
+}
+
+#nachten:hover{
+    border: 2px solid gray ;
+}
+
+#email{
+    font-size: 20px;
+    border: 1px solid gray;
+   padding: 5px 50px;
+}
+
+#email:hover{
+    border: 2px solid gray ;
+}
+
+.email{
+    font-size: 20px;
+}
+
+.img_2{
+    max-width: 100%;
+    height: 800px;
+}
